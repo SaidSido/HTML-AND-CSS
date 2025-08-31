@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Said Sido's Bootstrap</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet">
+  <style>
+    html {
+      scroll-behavior: smooth;
+    }
+    .jumbotron-custom {
+      background-color: #f8f9fa;
+      padding: 4rem 2rem;
+      text-align: center;
+      border-radius: 0.5rem;
+      margin-bottom: 2rem;
+    }
+  </style>
+</head>
+<body>
+
+<!-- Navbar -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark sticky-top">
+  <div class="container-fluid">
+    <a class="navbar-brand" href="#">Said Sido</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse" id="navbarNav">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#about">About</a></li>
+        <li class="nav-item"><a class="nav-link" href="#showtimes">Showtimes</a></li>
+        <li class="nav-item"><a class="nav-link" href="#deals">Deals</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Jumbotron -->
+<div class="jumbotron-custom">
+  <h1 class="display-4">Said Sido’s Movie Page!</h1>
+</div>
+
+<!-- About Section -->
+<section id="about" class="container my-5">
+  <h2 class="mb-4">About</h2>
+  <p>Hello! I'm Said Sido, and this is my awesome Bootstrap-based movie page project.</p>
+</section>
+
+<!-- Showtimes Section -->
+<section id="showtimes" class="container my-5">
+  <h2 class="mb-4">Showtimes</h2>
+  <div class="row row-cols-1 row-cols-md-3 g-4">
+    
+    <!-- Movie 1: Kong: Skull Island -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://m.media-amazon.com/images/M/MV5BMTcwMjcxYTQtYjJlOS00YTE1LWIyZGYtOGRlOTBlMWZmYTliXkEyXkFqcGc@._V1_.jpg" class="card-img-top" alt="Kong: Skull Island">
+        <div class="card-body">
+          <h5 class="card-title">Kong: Skull Island</h5>
+          <p class="card-text">A team of explorers ventures deep into an uncharted island in the Pacific, unaware they’re crossing into the domain of the mythic Kong.</p>
+          <span class="badge rounded-pill bg-info">12:00 p.m.</span>
+          <span class="badge rounded-pill bg-info">1:30 p.m.</span>
+          <span class="badge rounded-pill bg-info">3:00 p.m.</span>
+          <span class="badge rounded-pill bg-info">5:30 p.m.</span>
+          <span class="badge rounded-pill bg-info">7:00 p.m.</span>
+          <span class="badge rounded-pill bg-info">9:30 p.m.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Movie 2: Ghost in the Shell -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://m.media-amazon.com/images/M/MV5BNzBkNjdjZTctNjdhOS00NmIyLTlkNjQtY2EwNGMwYmZjNTIxXkEyXkFqcGc@._V1_.jpg" class="card-img-top" alt="Ghost in the Shell">
+        <div class="card-body">
+          <h5 class="card-title">Ghost in the Shell</h5>
+          <p class="card-text">In the near future, Major is the first of her kind: a human saved from a terrible crash, who is cyber-enhanced to be a perfect soldier.</p>
+          <span class="badge rounded-pill bg-info">12:00 p.m.</span>
+          <span class="badge rounded-pill bg-info">1:30 p.m.</span>
+          <span class="badge rounded-pill bg-info">3:00 p.m.</span>
+          <span class="badge rounded-pill bg-info">5:30 p.m.</span>
+          <span class="badge rounded-pill bg-info">7:00 p.m.</span>
+          <span class="badge rounded-pill bg-info">9:30 p.m.</span>
+        </div>
+      </div>
+    </div>
+
+    <!-- Movie 3: Beauty and the Beast -->
+    <div class="col">
+      <div class="card h-100">
+        <img src="https://lumiere-a.akamaihd.net/v1/images/p_beautyandthebeast_19752_32e65c36.jpeg" class="card-img-top" alt="Beauty and the Beast">
+        <div class="card-body">
+          <h5 class="card-title">Beauty and the Beast</h5>
+          <p class="card-text">A young woman is taken prisoner by a beast in his castle, only to discover that he is not what he seems. A tale as old as time.</p>
+          <span class="badge rounded-pill bg-info">12:00 p.m.</span>
+          <span class="badge rounded-pill bg-info">1:30 p.m.</span>
+          <span class="badge rounded-pill bg-info">3:00 p.m.</span>
+          <span class="badge rounded-pill bg-info">5:30 p.m.</span>
+          <span class="badge rounded-pill bg-info">7:00 p.m.</span>
+          <span class="badge rounded-pill bg-info">9:30 p.m.</span>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- Deals Section -->
+<section id="deals" class="container my-5">
+  <h2 class="mb-4">Deals</h2>
+  <p>Discount Section.</p>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white text-center py-3">
+  <p>&copy; 2025 Said Sido. All rights reserved.</p>
+</footer>
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
